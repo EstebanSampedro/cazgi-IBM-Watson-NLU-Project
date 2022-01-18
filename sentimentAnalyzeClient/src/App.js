@@ -11,7 +11,7 @@ class App extends React.Component {
   is set to text
   */
   state = {innercomp:<textarea rows="4" cols="50" id="textinput"/>,
-            mode: "text",
+            mode: "SentimentalAnalyzer",
           sentimentOutput:[],
           sentiment:true
         }
